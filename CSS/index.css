@@ -1,0 +1,80 @@
+#particles-js{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
+    /* z-index: -555; */
+}
+.container{
+    width:40% !important;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.btn{
+   font-size:120% !important;
+    border-radius:3px !important;
+    margin: 20px;
+    width:20% !important;
+    /* margin-top: 0; */
+}
+.formRegister button{
+    margin-top:10px !important;
+  
+}
+.formRegister{
+    /* display:none; */
+    width:100%;
+    position:absolute;
+    top: 0%;
+    right:-180%;
+    transition: right 0.3s;
+
+}
+.contBtn{
+    text-align: center;
+}
+input[type="text"]{
+    width:49%;
+}
+.contInp{
+    display: flex;
+    justify-content:space-between;
+}
+.formRegister input{
+    margin-bottom: 11px !important;
+}
+.parentLR{
+    position: relative;
+    /* background-color: aqua; */
+    padding:100px;
+}
+.formLogin{
+     z-index: 5555555;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    text-align: center;
+    transition: left 0.3s;
+}
+.formLogin input{
+    margin-bottom:11px !important;
+}
+input{
+    background-color: #000 !important;
+    color:#08c !important;
+    padding: 10px!important;
+    
+}
+@media only screen and (max-width:1280px){
+    .container{
+        width: 100% !important;
+    }
+}

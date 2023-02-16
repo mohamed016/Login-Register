@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#particles-js{
+    width:100%;
+    height:100vh;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:120% !important;
+    margin: 20px;
+    width:20% !important;
+}
+.container{
+    width:50%;
+    background-color:#09c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size:80px;
+    padding:30px;
+}
+@media only screen and (max-width:1280px){
+.container{
+    width: 100% !important;
+    font-size:30px;
+    margin-bottom:50px;
+}
+}
